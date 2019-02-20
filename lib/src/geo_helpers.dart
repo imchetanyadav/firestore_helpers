@@ -169,8 +169,8 @@ List<QueryConstraint> getLocationsConstraint(String fieldName, Area area) {
   final lesserGeopoint = box.swCorner;
   final greaterGeopoint = box.neCorner;
 
-  assert(box.swCorner.latitude < box.neCorner.latitude);
-  assert(box.swCorner.longitude < box.neCorner.longitude);
+  // assert(box.swCorner.latitude < box.neCorner.latitude);
+  // assert(box.swCorner.longitude < box.neCorner.longitude);
   // print( "LOC: ${area.center.latitude}/${area.center.longitude}");
   // print( "SW: ${box.swCorner.latitude}/${box.swCorner.longitude}");
   // print( "NE: ${box.neCorner.latitude}/${box.neCorner.longitude}");
